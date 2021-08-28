@@ -26,12 +26,6 @@ public class UserConfigController {
     {
         Optional<HouseModel> house=repository.findById(userConfigModel.getHouseId());
         HouseModel houseModel=house.get();
-        KieServices ks = KieServices.Factory.get();
-        KieContainer kContainer = ks.getKieClasspathContainer();
-        KieSession kieSession =  kContainer.newKieSession();
-        kieSession.insert(userConfigModel);
-        kieSession.insert(houseModel);
-        kieSession.fireAllRules();
         return houseModel;
     }
 }
