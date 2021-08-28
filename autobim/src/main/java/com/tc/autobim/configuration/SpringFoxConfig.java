@@ -19,7 +19,6 @@ public class SpringFoxConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(Predicate.not(RequestHandlerSelectors.basePackage("org.springframework.boot")))
                 .build();
     }
 }
