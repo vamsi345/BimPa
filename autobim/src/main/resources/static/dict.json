@@ -1,0 +1,1171 @@
+{
+  "Comments": "All Dimensions are in meters",
+  "Area": 209.0,
+  "Levels": {
+    "1": {
+      "Name": "EG-UK-RB",
+      "Elevation": -0.16
+    },
+    "2": {
+      "Name": "EG-OK-RB",
+      "Elevation": 0
+    },
+    "3": {
+      "Name": "EG-OK-FB",
+      "Elevation": 0.145
+    },
+    "4": {
+      "Name": "OG-UK-RB",
+      "Elevation": 2.645
+    },
+    "5": {
+      "Name": "OG-OK-RB",
+      "Elevation": 2.845
+    },
+    "6": {
+      "Name": "OG-OK-FB",
+      "Elevation": 2.94
+    },
+    "7": {
+      "Name": "DG-UK-FB",
+      "Elevation": 5.39
+    },
+    "8": {
+      "Name": "DG-UK-RB",
+      "Elevation": 5.45
+    },
+    "9": {
+      "Name": "DG-OK-RB",
+      "Elevation": 5.65
+    },
+    "10": {
+      "Name": "Kniestock",
+      "Elevation": 3.91
+    }
+  },
+  "Elements": {
+    "1": {
+      "Type": "EG",
+      "Walls": {
+        "Outer_Walls": {
+          "1": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "OT_24",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Outer_Walls_Horizontal_1",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Window",
+                "Family": "Kuche_2",
+                "Ratio": 0.15,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Door",
+                "Family": "Elisa",
+                "Ratio": 0.37019952054794525,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "2": {
+                "Type": "Window",
+                "Family": "HAR",
+                "Ratio": 0.6876712328767124,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 0.0,
+                "Z": 0
+              }
+            }
+          },
+          "2": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "OT_24",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Outer_Walls_Horizontal_2",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Window",
+                "Family": "Model_1_Bodentiefefenster_zwei_Flugel",
+                "Ratio": 0.2328767123287671,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Window",
+                "Family": "Model_1_Bodentiefefenster_zwei_Flugel",
+                "Ratio": 0.7671232876712328,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 9.24,
+                "Z": 0
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 9.24,
+                "Z": 0
+              }
+            }
+          },
+          "3": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "OT_24",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Outer_Walls_Vertical_3",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Window",
+                "Family": "Kuche_1",
+                "Ratio": 0.7205882352941176,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0
+              },
+              "2": {
+                "X": 0.0,
+                "Y": 9.24,
+                "Z": 0
+              }
+            }
+          },
+          "4": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "OT_24",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Outer_Walls_Vertical_4",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "HAR_Door_Neu",
+                "Ratio": 0.16470588235294117,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Window",
+                "Family": "WC",
+                "Ratio": 0.4235294117647059,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 10.74,
+                "Y": 0.0,
+                "Z": 0
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 9.24,
+                "Z": 0
+              }
+            }
+          }
+        },
+        "Inner_Walls": {
+          "1": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Horizontal_1",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.5,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 8.597884931506849,
+                "Y": 2.320870588235294,
+                "Z": 0
+              },
+              "2": {
+                "X": 9.939649315068493,
+                "Y": 2.320870588235294,
+                "Z": 0
+              }
+            }
+          },
+          "2": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Horizontal_2",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.5,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 6.591123287671232,
+                "Y": 3.0872470588235292,
+                "Z": 0
+              },
+              "2": {
+                "X": 8.597884931506849,
+                "Y": 3.0872470588235292,
+                "Z": 0
+              }
+            }
+          },
+          "3": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Horizontal_3",
+            "Height": 2.645,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 9.939649315068493,
+                "Y": 3.098117647058824,
+                "Z": 0
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 3.098117647058824,
+                "Z": 0
+              }
+            }
+          },
+          "4": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Horizontal_4",
+            "Height": 2.645,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "Sliding_door(wooden)",
+                "Ratio": 0.42019952054794524,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.6591422121896162,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 4.728705882352941,
+                "Z": 0
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 4.728705882352941,
+                "Z": 0
+              }
+            }
+          },
+          "5": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Vertical_5",
+            "Height": 2.645,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 3.2543671232876714,
+                "Y": 0.0,
+                "Z": 0
+              },
+              "2": {
+                "X": 3.2543671232876714,
+                "Y": 4.728705882352941,
+                "Z": 0
+              }
+            }
+          },
+          "6": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Vertical_6",
+            "Height": 2.645,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 6.591123287671232,
+                "Y": 0.0,
+                "Z": 0
+              },
+              "2": {
+                "X": 6.591123287671232,
+                "Y": 3.0872470588235292,
+                "Z": 0
+              }
+            }
+          },
+          "7": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Vertical_7",
+            "Height": 2.645,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 8.597884931506849,
+                "Y": 2.320870588235294,
+                "Z": 0
+              },
+              "2": {
+                "X": 8.597884931506849,
+                "Y": 4.728705882352941,
+                "Z": 0
+              }
+            }
+          },
+          "8": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "EG-OK-RB",
+            "Level_End": "OG-UK-RB",
+            "Revit_Index": "EG_Inner_Walls_Vertical_8",
+            "Height": 2.645,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 9.939649315068493,
+                "Y": 2.320870588235294,
+                "Z": 0
+              },
+              "2": {
+                "X": 9.939649315068493,
+                "Y": 3.098117647058824,
+                "Z": 0
+              }
+            }
+          }
+        }
+      },
+      "Floors": {
+        "Family": "Base Plate",
+        "Level_Start": "EG-UK-RB",
+        "Level_End": "EG-OK-FB",
+        "Revit_Index": "1",
+        "Offset": 0.305,
+        "Void": null,
+        "Points": {
+          "1": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "2": {
+            "X": 10.74,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "3": {
+            "X": 10.74,
+            "Y": 9.24,
+            "Z": 0
+          },
+          "4": {
+            "X": 0.0,
+            "Y": 9.24,
+            "Z": 0
+          }
+        }
+      },
+      "Stairs": {
+        "Family": "Treppe_Haus_1",
+        "Point": {
+          "X": 5.087063287671232,
+          "Y": 0.13,
+          "Z": 0
+        }
+      },
+      "Room_Tags": {
+        "1": {
+          "Name": "HAR",
+          "Point": {
+            "X": 0.5,
+            "Y": 0.5,
+            "Z": 0
+          }
+        },
+        "2": {
+          "Name": "Gaeste",
+          "Point": {
+            "X": 3.7543671232876714,
+            "Y": 0.5,
+            "Z": 0
+          }
+        },
+        "3": {
+          "Name": "Flur",
+          "Point": {
+            "X": 7.091123287671232,
+            "Y": 0.5,
+            "Z": 0
+          }
+        },
+        "4": {
+          "Name": "Kinder",
+          "Point": {
+            "X": 9.097884931506849,
+            "Y": 2.820870588235294,
+            "Z": 0
+          }
+        },
+        "5": {
+          "Name": "Arbeit",
+          "Point": {
+            "X": 0.5,
+            "Y": 5.228705882352941,
+            "Z": 0
+          }
+        }
+      }
+    },
+    "2": {
+      "Type": "OG",
+      "Walls": {
+        "Outer_Walls": {
+          "1": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "OT_24",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "Kniestock",
+            "Revit_Index": "OG_Outer_Walls_Horizontal_1",
+            "Height": 1.065,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 0.0,
+                "Z": 2.5
+              }
+            }
+          },
+          "2": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "OT_24",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "Kniestock",
+            "Revit_Index": "OG_Outer_Walls_Horizontal_2",
+            "Height": 1.065,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 9.24,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 9.24,
+                "Z": 2.5
+              }
+            }
+          },
+          "3": {
+            "Type": "Gable",
+            "Orientation": "Vertical",
+            "Family": "OT_24",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "Kniestock",
+            "Revit_Index": "OG_Outer_Walls_Vertical_3",
+            "Height": 1.065,
+            "Inserts": {
+              "0": {
+                "Type": "Window",
+                "Family": "Model_1_Bodentiefefenster_ein_Flugel",
+                "Ratio": 0.385,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Window",
+                "Family": "Model_1_Bodentiefefenster_ein_Flugel",
+                "Ratio": 0.615,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": -0.133,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 0.0,
+                "Y": 9.37016,
+                "Z": 2.5
+              },
+              "3": {
+                "X": 0.0,
+                "Y": 9.37016,
+                "Z": 6.165036012018215
+              },
+              "4": {
+                "X": 0.0,
+                "Y": 4.62,
+                "Z": 8.970036012018214
+              },
+              "5": {
+                "X": 0.0,
+                "Y": -0.133,
+                "Z": 6.165036012018215
+              }
+            }
+          },
+          "4": {
+            "Type": "Gable",
+            "Orientation": "Vertical",
+            "Family": "OT_24",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "Kniestock",
+            "Revit_Index": "OG_Outer_Walls_Vertical_4",
+            "Height": 1.065,
+            "Inserts": {
+              "0": {
+                "Type": "Window",
+                "Family": "OG_same",
+                "Ratio": 0.385,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Window",
+                "Family": "OG_same",
+                "Ratio": 0.615,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 10.74,
+                "Y": -0.133,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 9.37016,
+                "Z": 2.5
+              },
+              "3": {
+                "X": 10.74,
+                "Y": 9.37016,
+                "Z": 6.165036012018215
+              },
+              "4": {
+                "X": 10.74,
+                "Y": 4.62,
+                "Z": 8.970036012018214
+              },
+              "5": {
+                "X": 10.74,
+                "Y": -0.133,
+                "Z": 6.165036012018215
+              }
+            }
+          }
+        },
+        "Inner_Walls": {
+          "1": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_1",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 0.8587764705882354,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 4.337194520547945,
+                "Y": 0.8587764705882354,
+                "Z": 2.5
+              }
+            }
+          },
+          "2": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_2",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 7.532712328767124,
+                "Y": 1.5436235294117646,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 1.5436235294117646,
+                "Z": 2.5
+              }
+            }
+          },
+          "3": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_3",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 6.061479452054795,
+                "Y": 2.1741176470588237,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 7.532712328767124,
+                "Y": 2.1741176470588237,
+                "Z": 2.5
+              }
+            }
+          },
+          "4": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_4",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 4.403675294117647,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 4.337194520547945,
+                "Y": 4.403675294117647,
+                "Z": 2.5
+              }
+            }
+          },
+          "5": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_5",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 6.061479452054795,
+                "Y": 4.404218823529411,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 4.404218823529411,
+                "Z": 2.5
+              }
+            }
+          },
+          "6": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_6",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 4.337194520547945,
+                "Y": 6.310376470588235,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 6.061479452054795,
+                "Y": 6.310376470588235,
+                "Z": 2.5
+              }
+            }
+          },
+          "7": {
+            "Type": "Normal",
+            "Orientation": "Horizontal",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Horizontal_7",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 0.0,
+                "Y": 8.381223529411765,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 10.74,
+                "Y": 8.381223529411765,
+                "Z": 2.5
+              }
+            }
+          },
+          "8": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Vertical_8",
+            "Height": 2.605,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.6068130548750703,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.789052578199865,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 4.337194520547945,
+                "Y": 0.0,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 4.337194520547945,
+                "Y": 6.310376470588235,
+                "Z": 2.5
+              }
+            }
+          },
+          "9": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Vertical_9",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 5.031616438356164,
+                "Y": 6.310376470588235,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 5.031616438356164,
+                "Y": 8.381223529411765,
+                "Z": 2.5
+              }
+            }
+          },
+          "10": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Vertical_10",
+            "Height": 2.605,
+            "Inserts": {
+              "0": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.789052578199865,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              },
+              "1": {
+                "Type": "Door",
+                "Family": "Innertur",
+                "Ratio": 0.6068130548750703,
+                "IsFaceFlipped": false,
+                "IsHandFlipped": false,
+                "BRH": 0
+              }
+            },
+            "Points": {
+              "1": {
+                "X": 6.061479452054795,
+                "Y": 0.0,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 6.061479452054795,
+                "Y": 6.310376470588235,
+                "Z": 2.5
+              }
+            }
+          },
+          "11": {
+            "Type": "Normal",
+            "Orientation": "Vertical",
+            "Family": "Inner Walls 11.5 cm",
+            "Level_Start": "OG-OK-RB",
+            "Level_End": "DG-UK-RB",
+            "Revit_Index": "OG_Inner_Walls_Vertical_11",
+            "Height": 2.605,
+            "Inserts": {
+              
+            },
+            "Points": {
+              "1": {
+                "X": 7.532712328767124,
+                "Y": 1.5436235294117646,
+                "Z": 2.5
+              },
+              "2": {
+                "X": 7.532712328767124,
+                "Y": 2.1741176470588237,
+                "Z": 2.5
+              }
+            }
+          }
+        }
+      },
+      "Floors": {
+        "Family": "Base Plate",
+        "Level_Start": "OG-UK-RB",
+        "Level_End": "OG-OK-FB",
+        "Revit_Index": "2",
+        "Offset": 0.305,
+        "Void": {
+          "Width": 2.15,
+          "Length": 1.35,
+          "Family": "Void_for_Floor",
+          "Point": {
+            "X": 5.087063287671232,
+            "Y": 0.13,
+            "Z": 0
+          }
+        },
+        "Points": {
+          "1": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "2": {
+            "X": 10.74,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "3": {
+            "X": 10.74,
+            "Y": 9.24,
+            "Z": 0
+          },
+          "4": {
+            "X": 0.0,
+            "Y": 9.24,
+            "Z": 0
+          }
+        }
+      },
+      "Room_Tags": {
+        "1": {
+          "Name": "Kuche",
+          "Point": {
+            "X": 0.5,
+            "Y": 1.3587764705882353,
+            "Z": 0
+          }
+        },
+        "2": {
+          "Name": "Gaeste",
+          "Point": {
+            "X": 5.366838356164383,
+            "Y": 0.5,
+            "Z": 0
+          }
+        },
+        "3": {
+          "Name": "Kinder",
+          "Point": {
+            "X": 7.091123287671233,
+            "Y": 2.6741176470588237,
+            "Z": 0
+          }
+        },
+        "4": {
+          "Name": "BAD",
+          "Point": {
+            "X": 6.061260273972603,
+            "Y": 6.810376470588235,
+            "Z": 0
+          }
+        },
+        "5": {
+          "Name": "X",
+          "Point": {
+            "X": 0.5,
+            "Y": 5.371110588235294,
+            "Z": 0
+          }
+        },
+        "6": {
+          "Name": "Gaeste",
+          "Point": {
+            "X": 0.5,
+            "Y": 0.5,
+            "Z": 0
+          }
+        },
+        "7": {
+          "Name": "Gaeste",
+          "Point": {
+            "X": 0.5,
+            "Y": 8.881223529411765,
+            "Z": 0
+          }
+        },
+        "8": {
+          "Name": "Gaeste",
+          "Point": {
+            "X": 7.091123287671233,
+            "Y": 0.5,
+            "Z": 0
+          }
+        }
+      }
+    }
+  },
+  "Roof": {
+    "Comments": "The Height specified is H1 i.e the height between roof family origin and top point at the edge of roof.",
+    "Type": "Binderdach",
+    "Family": "Roof_test",
+    "Start_Level": "Kniestock",
+    "Offsets": {
+      "1": -0.73,
+      "2": 0.33,
+      "3": 0.73,
+      "4": -0.33
+    },
+    "Slopes": {
+      "1": 0,
+      "2": 2
+    },
+    "Tangents": {
+      "1": 45,
+      "2": 45
+    },
+    "Rotation": 0,
+    "Length": 10.84312158943287,
+    "Width": 8.86,
+    "Height": 3.665036012018214,
+    "Points": {
+      "1": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0
+      },
+      "2": {
+        "X": 10.74,
+        "Y": 0.0,
+        "Z": 0
+      },
+      "3": {
+        "X": 10.74,
+        "Y": 9.24,
+        "Z": 0
+      },
+      "4": {
+        "X": 0.0,
+        "Y": 9.24,
+        "Z": 0
+      }
+    },
+    "Dormer": {
+      1: {
+        "Type": "Gaube",
+        "Dormer_Type": "SatteldachGaube",
+        "All_Dormer_Types": {
+          "1": "StadtGaube",
+          "2": "SatteldachGaube",
+          "3": "FlachdachGaube",
+          "4": "FlachdachZwerchgiebel"
+        },
+        "Points": {
+          "1": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "2": {
+            "X": 10.74,
+            "Y": 0.0,
+            "Z": 0
+          },
+          "3": {
+            "X": 10.74,
+            "Y": 9.24,
+            "Z": 0
+          },
+          "4": {
+            "X": 0.0,
+            "Y": 9.24,
+            "Z": 0
+          }
+        },
+        "Rooftype": "Roof_test",
+        "Wall_Level": "OG-OK-RB",
+        "Dormer_Bottom_Level": "DG-OK-RB",
+        "Dormer_Top_Level": "Kniestock",
+        "Side_Walltype": "Inner Walls 16 cm",
+        "Front_Walltype": "OT_24",
+        "Wall_Chosen": "OG_Outer_Walls_Horizontal_2",
+        "dormer_abstand_opening": 1,
+        "dormer_wall_height": 2.9,
+        "dormer_centre_ratio": 0.35,
+        "dormer_slope": 45,
+        "dormer_width": 3.39,
+        "dormer_inner_length_unit": 1.5
+      }
+    }
+  }
+}

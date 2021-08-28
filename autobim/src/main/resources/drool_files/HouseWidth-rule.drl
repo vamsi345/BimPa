@@ -1,0 +1,36 @@
+package drool_files;
+dialect "mvel"
+
+import com.tc.autobim.domain.model.HouseModel
+import com.tc.autobim.domain.model.UserConfigModel
+rule "HouseWidth-rule"
+    when
+        $user: UserConfigModel(houseLength>=9.125,houseLength<=11,houseWidth>=8.5,houseWidth<=10)
+        $house:HouseModel(validLengthStep(houseLength,$user.houseLength),validWidthStep(houseWidth,$user.houseWidth))
+        $ratio:HouseModel(houseLengthAndWidthRatio($user.getHouseWidth(),$user.getHouseLength()))
+    then
+        $house.setHouseLength($user.getHouseLength());
+        $house.setHouseWidth($user.getHouseWidth());
+    end
+
+
+
+
+   function boolean validLengthStep(double houseLength,double userLength){
+        if((userLength-houseLength)%0.125==0)
+        return true;
+        else
+        return false;
+   }
+   function boolean validWidthStep(double houseWidth,double userWidth){
+           if((userWidth-houseWidth)%0.125==0)
+           return true;
+           else
+           return false;
+   }
+   function boolean houseLengthAndWidthRatio(double houseWidth,double houseLength){
+              if(houseWidth/houseLength>=0.80&&houseWidth/houseLength<=0.95)
+              return true;
+              else
+              return false;
+   }

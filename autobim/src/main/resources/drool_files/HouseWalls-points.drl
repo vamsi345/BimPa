@@ -1,0 +1,13 @@
+package drool_files;
+dialect  "mvel"
+
+
+import com.tc.autobim.domain.model.HouseModel
+import com.tc.autobim.domain.model.PointModel
+rule "HouseWalls-points"
+    when
+    $house: HouseModel()
+
+    then
+    $house.getElementList().get(0).getWalls().getOuterWalls().get(0).
+end

@@ -1,0 +1,19 @@
+package drool_files;
+dialect "mvel"
+import com.tc.autobim.domain.model.FloorModel
+import com.tc.autobim.domain.model.HouseModel
+import com.tc.autobim.domain.model.PointModel
+
+rule "housefloor"
+   when
+       $house:HouseModel()
+       then
+       $house.getElementList().get(0).getFloor().getPoints().get(1).setX($house.getHouseLength());
+       $house.getElementList().get(0).getFloor().getPoints().get(2).setX($house.getHouseLength());
+       $house.getElementList().get(0).getFloor().getPoints().get(2).setY($house.getHouseWidth());
+       $house.getElementList().get(0).getFloor().getPoints().get(3).setY($house.getHouseWidth());
+       $house.getElementList().get(1).getFloor().getPoints().get(1).setX($house.getHouseLength());
+       $house.getElementList().get(1).getFloor().getPoints().get(2).setX($house.getHouseLength());
+       $house.getElementList().get(1).getFloor().getPoints().get(2).setY($house.getHouseWidth());
+       $house.getElementList().get(1).getFloor().getPoints().get(3).setY($house.getHouseWidth());
+   end
